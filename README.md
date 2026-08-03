@@ -1,21 +1,19 @@
-Sample project to demonstrate a cy.dataTest Cypress custom command.
+# Cypress, from Zero to the Cloud
 
-Pre-requirements
-It is required to have Node.js and npm installed to run this project.
+## Tests
+In the project, you can run the tests on a desktop or mobile viewport.
 
-I used versions v18.15.0 and 9.5.0 of Node.js and npm, respectively. I suggest you use the same or later versions.
+### Desktop
 
-Installation
-Run npm install (or npm i for the short version) to install the dev dependencies.
+Run `npm test` to run the test in headless mode on a desktop viewport.
 
-Tests
-Note: Before running the tests, make a copy of the cypress.env.example.json file as cypress.env.json, which in the real world, you would update with valid credentials.
+Or, run `npm run cy:open` to open the Cypress App on a desktop viewport.
 
-The cypress.env.json file is included on .gitignore and you're safe that confidential info won't be versioned.
+#### Mobile
 
-Run npm test (or npm t for the short version) to run the test in headless mode.
+Run `npm run test:mobile` to run the test in headless mode on a mobile viewport.
 
-Or, run npm run cy:open to open Cypress in interactive mode.
+Or, run `npm run cy:open:mobile` to open the Cypress App on a desktop viewport.
 
-Support this project
+## Support this project
 If you want to support this project, leave a ⭐.
